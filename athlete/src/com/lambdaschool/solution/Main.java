@@ -17,7 +17,6 @@ public class Main
         app = injector.getProcess();
         app.displayAthlete();
 
-
         // Create a Rugby Athlete
         injector = new RugbyAthleteCreationInjector();
         app = injector.getProcess();
