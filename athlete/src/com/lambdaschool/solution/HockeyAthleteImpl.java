@@ -3,8 +3,8 @@ package com.lambdaschool.solution;
 public class HockeyAthleteImpl implements AthleteCreation
 {
     @Override
-    public void displayAthlete(String sport)
+    public void displayAthlete()
     {
-        System.out.println(sport + " Hockey Athlete!");
+        System.out.println("Hockey Goalie!");
     }
 }
