@@ -3,9 +3,9 @@ package com.lambdaschool.solution;
 public class RugbyAthleteImpl implements AthleteCreation
 {
     @Override
-    public void displayAthlete()
+    public void displayAthlete(String sport)
     {
-        System.out.println("Rugby Athlete!");
+        System.out.println(sport + " Rugby Athlete!");
     }
 
 }
